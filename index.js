@@ -39,7 +39,7 @@ server.post('/login', (req, res) => {
   if (user) {
     bcrypt.compare(password, user.password, (err, result) => {
       if (result) {
-        const token = jwt.sign({ id: user.id, role: user.role }, secret)
+        const token = jwt.sign({ id: user.id, role: user.role, email: user.email, gender: user.gender, first_name: user.first_name, last_name: user.last_name }, secret)
         res.send({ token })
       } else {
         res.status(401).send(err)
