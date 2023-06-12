@@ -103,7 +103,9 @@ server.post('/register', (req, res) => {
 
 server.post('/items', validateToken(secret), (req, res) => {
   const item = req.body
-  router.db.get('items').push(item).write()
+  console.log(req.body)
+  console.log(req.headers)
+  router.db.get('items').unshift(item).write()
   res.send({ message: 'Item created successfully' })
 })
 

@@ -1,26 +1,26 @@
 {
   "users": [
     {
-      "id": "1c311551-074a-4226-9758-f0780c427612",
-      "first_name": "Dr.",
-      "last_name": "Strange",
+      "id": "cbac281e-4e0a-4c9e-bcbc-d112515922c7",
+      "first_name": "Mateo",
+      "last_name": "Vasco",
       "gender": "M",
-      "email": "drstrange@marvel.com",
-      "password": "$2b$10$eWUUn0pa93FvCflMfAoOi.pia5mX0XZo3vFIseZApqdIpjURSUpJO",
+      "email": "m@mail.com",
+      "password": "$2b$10$B3cOcV7cXNs4wVPcy7q4fuZQyh1WFo0rCzUL5HHSizxAVPYxyBeSK",
       "role": "CUSTOMER",
-      "createdAt": 1672949755981,
-      "updatedAt": 1672949755981
+      "createdAt": 1686428852620,
+      "updatedAt": 1686428852620
     },
     {
-      "id": "7f545390-fd8f-4412-b7b3-4e267586751f",
-      "first_name": "Clark",
-      "last_name": "Kent",
-      "gender": "M",
-      "email": "superman@dc.com",
-      "password": "$2b$10$rk4MklBt2DtAq4Fh/okYYul54DSJWh1z2jRf9qIWKuygOEQI2FR5C",
+      "id": "79006585-6daa-4550-8e65-ab2386407007",
+      "first_name": "Juliana",
+      "last_name": "Cortes",
+      "gender": "F",
+      "email": "j@mail.com",
+      "password": "$2b$10$ul7LwT1DTHsSSnmcfB84nuM/MU9IONUXRjD1xQk3TONXvNljVYxfm",
       "role": "ADMIN",
-      "createdAt": 1674323738966,
-      "updatedAt": 1674323738966
+      "createdAt": 1686428879452,
+      "updatedAt": 1686428879452
     }
   ],
   "items": [
@@ -652,7 +652,7 @@
       "createdAt": "2020-11-23T20:20:54.246Z",
       "updatedAt": "2020-11-23T20:20:54.246Z",
       "__v": 0,
-      "image": "https://exitocol.vtexassets.com/arquivos/ids/18255012-500-auto?v=1771971033&width=500&height=auto&aspect=true"
+      "image": "https://exitocol.vtexassets.com/arquivos/ids/16426915-800-auto?v=638109473263030000&width=800&height=auto&aspect=true"
     },
     {
       "isActive": true,
