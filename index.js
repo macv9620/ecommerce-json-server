@@ -109,6 +109,24 @@ server.post('/items', validateToken(secret), (req, res) => {
   res.send({ message: 'Item created successfully' })
 })
 
+// Postear orden confirmada
+server.post('/order', validateToken(secret), (req, res) => {
+  const order = req.body
+  const orders = router.db.get('orders').__wrapped__.orders
+  let orderId
+  if (orders.length === 0) {
+    orderId = 1
+  } else {
+    const maxId = orders[0].orderId
+    orderId = maxId + 1
+  }
+  router.db.get('orders').unshift({ ...order, orderId }).write()
+  res.send({
+    message: 'Order created successfully',
+    orderId
+  })
+})
+
 // Elimino el campo password de la respuesta de obtener un usuario
 server.get('/users/:id', (req, res) => {
   const users = router.db.getState().users

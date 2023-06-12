@@ -1,29 +1,53 @@
 {
   "users": [
     {
-      "id": "cbac281e-4e0a-4c9e-bcbc-d112515922c7",
-      "first_name": "Mateo",
-      "last_name": "Vasco",
-      "gender": "M",
-      "email": "m@mail.com",
-      "password": "$2b$10$B3cOcV7cXNs4wVPcy7q4fuZQyh1WFo0rCzUL5HHSizxAVPYxyBeSK",
-      "role": "CUSTOMER",
-      "createdAt": 1686428852620,
-      "updatedAt": 1686428852620
-    },
-    {
-      "id": "79006585-6daa-4550-8e65-ab2386407007",
+      "id": "4eef8494-8ba3-453a-a13c-d86d3dad997c",
       "first_name": "Juliana",
       "last_name": "Cortes",
       "gender": "F",
       "email": "j@mail.com",
-      "password": "$2b$10$ul7LwT1DTHsSSnmcfB84nuM/MU9IONUXRjD1xQk3TONXvNljVYxfm",
+      "password": "$2b$10$BnYgMKhLjab394PYaea3HOe9ZU2acgCc0u/f/ti1M.OgsjwkO8usC",
       "role": "ADMIN",
-      "createdAt": 1686428879452,
-      "updatedAt": 1686428879452
+      "createdAt": 1686593983785,
+      "updatedAt": 1686593983785
+    },
+    {
+      "id": "808baa1e-f845-4b01-a1b9-001fbd9a4c26",
+      "first_name": "Mateo",
+      "last_name": "Vasco",
+      "gender": "M",
+      "email": "m@mail.com",
+      "password": "$2b$10$dk..twQVn9JzJ4URGVxuAe1GsnE3QJUlXyYsPQkg.5jvXFVHb8qrO",
+      "role": "CUSTOMER",
+      "createdAt": 1686594008428,
+      "updatedAt": 1686594008428
     }
   ],
   "items": [
+    {
+      "product_name": "Tracker",
+      "description": "A great Chevrolet car",
+      "price": "2000",
+      "category": "Cars",
+      "brand": "Crevrolet",
+      "sku": "lksf987ew789r",
+      "image": "https://i.ibb.co/ZNXTNZX/c7f77f2f881c.webp",
+      "id": "54e73edc-a946-4e2d-ac58-b3aeaaa83d22",
+      "createdAt": 1686594847133,
+      "updatedAt": 1686594847133
+    },
+    {
+      "product_name": "Sandero",
+      "description": "A powerfull Renault car",
+      "price": "1500",
+      "category": "Cars",
+      "brand": "Renault",
+      "sku": "fr5t4554ery5654tg",
+      "image": "https://cdn.group.renault.com/ren/co/vehicles/sandero/home/nuevo-renault-sandero-rojo-fuego.jpg.ximg.xsmall.jpg/0b9611c786.jpg",
+      "id": "6b9cc057-0ff0-40e6-a3a3-e3e4401382f5",
+      "createdAt": 1686594670619,
+      "updatedAt": 1686594670619
+    },
     {
       "isActive": true,
       "id": "5fbc19a65a3f794d72471163",
@@ -738,5 +762,6 @@
       "__v": 0,
       "image": "https://falabella.scene7.com/is/image/FalabellaCO/gsc_119929819_2536425_2?wid=800&hei=800&qlt=70"
     }
-  ]
+  ],
+  "orders": []
 }
