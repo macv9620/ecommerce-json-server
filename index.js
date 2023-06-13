@@ -136,6 +136,39 @@ server.get('/users/:id', (req, res) => {
   res.send(userRest) // Envio todos los atributos del usuario, sin el password
 })
 
+// Consultar órdenes de un usuario buscando por correo
+server.get('/orders', (req, res) => {
+  const { email } = req.body
+  if (!email) {
+    res.status(400).send({ message: 'Invalid email' })
+  }
+  console.log(email)
+  const orders = router.db.getState().orders
+  if (orders.length === 0) {
+    res.send({
+      result: 'NO-ORDERS',
+      message: `No orders for ${email}`
+    })
+  } else {
+    const userOrders = orders.filter((order) => {
+      return order.email === email
+    })
+    if (userOrders.length === 0) {
+      res.send({
+        result: 'NO-ORDERS',
+        message: `No orders for ${email}`
+      })
+    }
+    if (userOrders.length !== 0) {
+      res.send({
+        result: 'ORDERS',
+        message: `${userOrders.length} orders found for ${email}`,
+        data: userOrders
+      })
+    }
+  }
+})
+
 // Elimino el campo password de la lista de usuarios
 server.get('/users', (req, res) => {
   const users = router.db.getState().users

@@ -25,6 +25,18 @@
   ],
   "items": [
     {
+      "product_name": "Picanto",
+      "description": "A great picanto car",
+      "price": "4000",
+      "category": "Cars",
+      "brand": "Kia",
+      "sku": "kl5234lkjijudfs",
+      "image": "https://i.ibb.co/gJ3pzXj/e3ae837907b4.jpg",
+      "id": "ca3c98d8-23b1-455e-9cb0-1cb39920e07a",
+      "createdAt": 1686612997199,
+      "updatedAt": 1686612997199
+    },
+    {
       "product_name": "Tracker",
       "description": "A great Chevrolet car",
       "price": "2000",
