@@ -168,6 +168,18 @@ server.post('/orders', (req, res) => {
   }
 })
 
+// Eliminar un producto con base en un ID
+server.delete('/product', validateToken(secret), (req, res) => {
+  const { id } = req.body
+  const products = router.db.getState().items
+
+  res.send({
+    message: 'Products List',
+    products,
+    id
+  })
+})
+
 // Elimino el campo password de la lista de usuarios
 server.get('/users', (req, res) => {
   const users = router.db.getState().users

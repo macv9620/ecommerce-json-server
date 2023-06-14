@@ -25,6 +25,18 @@
   ],
   "items": [
     {
+      "product_name": "Chair",
+      "description": "Comfortable and great design",
+      "price": "40",
+      "category": "Home",
+      "brand": "Rin",
+      "sku": "lkjdsf987erwre",
+      "image": "https://cdn.shopify.com/s/files/1/0044/1208/0217/products/CHR2226SRB_BST_600x.jpg?v=1660978123",
+      "id": "fcad2fa3-6958-4c73-b6f8-e33006b96834",
+      "createdAt": 1686741923567,
+      "updatedAt": 1686741923567
+    },
+    {
       "product_name": "Picanto",
       "description": "A great picanto car",
       "price": "4000",
