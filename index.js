@@ -103,8 +103,6 @@ server.post('/register', (req, res) => {
 
 server.post('/items', validateToken(secret), (req, res) => {
   const item = req.body
-  console.log(req.body)
-  console.log(req.headers)
   router.db.get('items').unshift(item).write()
   res.send({ message: 'Item created successfully' })
 })
@@ -115,7 +113,7 @@ server.post('/order', validateToken(secret), (req, res) => {
   const orders = router.db.get('orders').__wrapped__.orders
   let orderId
   if (orders.length === 0) {
-    orderId = 1
+    orderId = 100
   } else {
     const maxId = orders[0].orderId
     orderId = maxId + 1
@@ -137,12 +135,12 @@ server.get('/users/:id', (req, res) => {
 })
 
 // Consultar órdenes de un usuario buscando por correo
-server.get('/orders', (req, res) => {
+server.post('/orders', (req, res) => {
   const { email } = req.body
   if (!email) {
     res.status(400).send({ message: 'Invalid email' })
+    return
   }
-  console.log(email)
   const orders = router.db.getState().orders
   if (orders.length === 0) {
     res.send({
@@ -158,6 +156,7 @@ server.get('/orders', (req, res) => {
         result: 'NO-ORDERS',
         message: `No orders for ${email}`
       })
+      return
     }
     if (userOrders.length !== 0) {
       res.send({
