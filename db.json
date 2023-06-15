@@ -1,28 +1,5 @@
 {
-  "users": [
-    {
-      "id": "4eef8494-8ba3-453a-a13c-d86d3dad997c",
-      "first_name": "Juliana",
-      "last_name": "Cortes",
-      "gender": "F",
-      "email": "j@mail.com",
-      "password": "$2b$10$BnYgMKhLjab394PYaea3HOe9ZU2acgCc0u/f/ti1M.OgsjwkO8usC",
-      "role": "ADMIN",
-      "createdAt": 1686593983785,
-      "updatedAt": 1686593983785
-    },
-    {
-      "id": "808baa1e-f845-4b01-a1b9-001fbd9a4c26",
-      "first_name": "Mateo",
-      "last_name": "Vasco",
-      "gender": "M",
-      "email": "m@mail.com",
-      "password": "$2b$10$dk..twQVn9JzJ4URGVxuAe1GsnE3QJUlXyYsPQkg.5jvXFVHb8qrO",
-      "role": "CUSTOMER",
-      "createdAt": 1686594008428,
-      "updatedAt": 1686594008428
-    }
-  ],
+  "users": [],
   "items": [
     {
       "product_name": "Chair",

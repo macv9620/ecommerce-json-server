@@ -171,12 +171,27 @@ server.post('/orders', (req, res) => {
 // Eliminar un producto con base en un ID
 server.delete('/product', validateToken(secret), (req, res) => {
   const { id } = req.body
+  if (!id) {
+    res.status(400).send({
+      message: 'A product Id es required'
+    })
+    return
+  }
   const products = router.db.getState().items
+  const findIndexProduct = products.findIndex((product) => product.id === id)
+
+  if (findIndexProduct === -1) {
+    res.status(400).send({
+      message: 'Product not found'
+    })
+    return
+  }
+
+  const deletedProduct = router.db.get('items').splice(findIndexProduct, 1).write()
 
   res.send({
-    message: 'Products List',
-    products,
-    id
+    message: 'Product deleted successfully',
+    data: deletedProduct
   })
 })
 
