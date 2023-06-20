@@ -2,6 +2,18 @@
   "users": [],
   "items": [
     {
+      "product_name": "AirPods",
+      "description": "Powerful sound",
+      "price": "450",
+      "category": "Electronics",
+      "brand": "Apple",
+      "sku": "sdf5454",
+      "image": "https://i.ibb.co/KjnLMvQ/23fe5c69c6fe.webp",
+      "id": "c80a327a-ff20-4249-9b56-566c31ed9864",
+      "createdAt": 1686804750110,
+      "updatedAt": 1686804750110
+    },
+    {
       "product_name": "Chair",
       "description": "Comfortable and great design",
       "price": "40",
@@ -14,18 +26,6 @@
       "updatedAt": 1686741923567
     },
     {
-      "product_name": "Picanto",
-      "description": "A great picanto car",
-      "price": "4000",
-      "category": "Cars",
-      "brand": "Kia",
-      "sku": "kl5234lkjijudfs",
-      "image": "https://i.ibb.co/gJ3pzXj/e3ae837907b4.jpg",
-      "id": "ca3c98d8-23b1-455e-9cb0-1cb39920e07a",
-      "createdAt": 1686612997199,
-      "updatedAt": 1686612997199
-    },
-    {
       "product_name": "Tracker",
       "description": "A great Chevrolet car",
       "price": "2000",
@@ -36,18 +36,6 @@
       "id": "54e73edc-a946-4e2d-ac58-b3aeaaa83d22",
       "createdAt": 1686594847133,
       "updatedAt": 1686594847133
-    },
-    {
-      "product_name": "Sandero",
-      "description": "A powerfull Renault car",
-      "price": "1500",
-      "category": "Cars",
-      "brand": "Renault",
-      "sku": "fr5t4554ery5654tg",
-      "image": "https://cdn.group.renault.com/ren/co/vehicles/sandero/home/nuevo-renault-sandero-rojo-fuego.jpg.ximg.xsmall.jpg/0b9611c786.jpg",
-      "id": "6b9cc057-0ff0-40e6-a3a3-e3e4401382f5",
-      "createdAt": 1686594670619,
-      "updatedAt": 1686594670619
     },
     {
       "isActive": true,
@@ -485,20 +473,6 @@
     },
     {
       "isActive": true,
-      "id": "5fbc19a65a3f794d72471188",
-      "product_name": "Handmade Metal Pizza",
-      "description": "Carbonite web goalkeeper gloves are ergonomically designed to give easy fit",
-      "price": 523,
-      "category": "Electronics",
-      "brand": "Veum Group",
-      "sku": "9386614a-4929-4459-9ef4-0cdf31144712",
-      "createdAt": "2020-11-23T20:20:54.247Z",
-      "updatedAt": "2020-11-23T20:20:54.247Z",
-      "__v": 0,
-      "image": "https://exitocol.vtexassets.com/arquivos/ids/15927934-500-auto?v=1771967662&width=500&height=auto&aspect=true"
-    },
-    {
-      "isActive": true,
       "id": "5fbc19a65a3f794d7247118f",
       "product_name": "Intelligent Granite Keyboard",
       "description": "The beautiful range of Apple Naturalé that has an exciting mix of natural ingredients. With the Goodness of 100% Natural Ingredients",
@@ -524,20 +498,6 @@
       "updatedAt": "2020-11-23T20:20:54.247Z",
       "__v": 0,
       "image": "https://exitocol.vtexassets.com/arquivos/ids/15287823-500-auto?v=1771970855&width=500&height=auto&aspect=true"
-    },
-    {
-      "isActive": true,
-      "id": "5fbc19a65a3f794d7247118d",
-      "product_name": "Intelligent Metal Shoes",
-      "description": "Carbonite web goalkeeper gloves are ergonomically designed to give easy fit",
-      "price": 803,
-      "category": "Music",
-      "brand": "Schowalter, Smitham and Ward",
-      "sku": "9f83997a-7500-405b-a20a-9409d91a26a4",
-      "createdAt": "2020-11-23T20:20:54.247Z",
-      "updatedAt": "2020-11-23T20:20:54.247Z",
-      "__v": 0,
-      "image": "https://exitocol.vtexassets.com/arquivos/ids/16823599-500-auto?v=1771968812&width=500&height=auto&aspect=true"
     },
     {
       "isActive": true,
