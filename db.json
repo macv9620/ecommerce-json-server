@@ -1,9 +1,21 @@
 {
-  "users": [],
+  "users": [
+    {
+      "id": "5adb77e9-255f-41c1-b30d-eb0311a868c4",
+      "first_name": "Juliana",
+      "last_name": "Cortes",
+      "gender": "F",
+      "email": "j@mail.com",
+      "password": "$2b$10$dpaK1JjKN8z8cYg5tMh92uNH2rCNxLQ2R8Ap8EGJuy/npg6qve3Qu",
+      "role": "ADMIN",
+      "createdAt": 1688325419783,
+      "updatedAt": 1688325419783
+    }
+  ],
   "items": [
     {
       "product_name": "AirPods",
-      "description": "Powerful sound",
+      "description": "The Apollotech B340 is an affordable wireless mouse with reliable connectivity, 12 months battery life and modern design",
       "price": "450",
       "category": "Electronics",
       "brand": "Apple",
@@ -15,7 +27,7 @@
     },
     {
       "product_name": "Chair",
-      "description": "Comfortable and great design",
+      "description": "New range of formal shirts are designed keeping you in mind. With fits and styling that will make you stand apart",
       "price": "40",
       "category": "Home",
       "brand": "Rin",
@@ -27,7 +39,7 @@
     },
     {
       "product_name": "Tracker",
-      "description": "A great Chevrolet car",
+      "description": "The beautiful range of Apple Naturalé that has an exciting mix of natural ingredients. With the Goodness of 100% Natural Ingredients",
       "price": "2000",
       "category": "Cars",
       "brand": "Crevrolet",
@@ -445,20 +457,6 @@
     },
     {
       "isActive": true,
-      "id": "5fbc19a65a3f794d72471182",
-      "product_name": "Intelligent Granite Keyboard",
-      "description": "Carbonite web goalkeeper gloves are ergonomically designed to give easy fit",
-      "price": 840,
-      "category": "Toys",
-      "brand": "Feil, Carroll and Shanahan",
-      "sku": "9408a5f6-77e4-4ba5-a173-81a4a7e31bcb",
-      "createdAt": "2020-11-23T20:20:54.246Z",
-      "updatedAt": "2020-11-23T20:20:54.246Z",
-      "__v": 0,
-      "image": "https://exitocol.vtexassets.com/arquivos/ids/18156944-500-auto?v=1771970631&width=500&height=auto&aspect=true"
-    },
-    {
-      "isActive": true,
       "id": "5fbc19a65a3f794d72471184",
       "product_name": "Gorgeous Granite Soap",
       "description": "The Football Is Good For Training And Recreational Purposes",
@@ -724,5 +722,49 @@
       "image": "https://falabella.scene7.com/is/image/FalabellaCO/gsc_119929819_2536425_2?wid=800&hei=800&qlt=70"
     }
   ],
-  "orders": []
+  "orders": [
+    {
+      "email": "mateo@email.com",
+      "orderId": 100,
+      "date": {
+        "orderDate": "12-06-2023",
+        "orderTime": "14:51"
+      },
+      "products": [
+        {
+          "isActive": true,
+          "id": "5fbc19a65a3f794d7247117a",
+          "product_name": "Rustic Soft Cheese",
+          "description": "Ergonomic executive chair upholstered in bonded black leather and PVC padded seat and back for all-day comfort and support",
+          "price": 237,
+          "category": "Electronics",
+          "brand": "Terry, Graham and Maggio",
+          "sku": "3a3617a4-8067-4014-bcb8-8b6f1446271f",
+          "createdAt": "2020-11-23T20:20:54.246Z",
+          "updatedAt": "2020-11-23T20:20:54.246Z",
+          "__v": 0,
+          "image": "https://fastly.picsum.photos/id/11/2500/1667.jpg?hmac=xxjFJtAPgshYkysU_aqx2sZir-kIOjNR9vx0te7GycQ",
+          "productQuantity": 2
+        },
+        {
+          "product_name": "Tracker",
+          "description": "A great Chevrolet car",
+          "price": "2000",
+          "category": "Cars",
+          "brand": "Crevrolet",
+          "sku": "lksf987ew789r",
+          "image": "https://i.ibb.co/ZNXTNZX/c7f77f2f881c.webp",
+          "id": "54e73edc-a946-4e2d-ac58-b3aeaaa83d22",
+          "createdAt": 1686594847133,
+          "updatedAt": 1686594847133,
+          "productQuantity": 5
+        }
+      ],
+      "productsQ": 4,
+      "totalPrice": 2500,
+      "id": "80ce5743-f4a3-4d73-bb7d-3587082f4bab",
+      "createdAt": 1688325335984,
+      "updatedAt": 1688325335984
+    }
+  ]
 }
