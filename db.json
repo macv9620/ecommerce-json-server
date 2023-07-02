@@ -1,15 +1,26 @@
 {
   "users": [
     {
-      "id": "5adb77e9-255f-41c1-b30d-eb0311a868c4",
-      "first_name": "Juliana",
-      "last_name": "Cortes",
-      "gender": "F",
-      "email": "j@mail.com",
-      "password": "$2b$10$dpaK1JjKN8z8cYg5tMh92uNH2rCNxLQ2R8Ap8EGJuy/npg6qve3Qu",
+      "id": "b3e12779-e4f9-4557-94b2-de4a82ee7cfd",
+      "first_name": "Usuario",
+      "last_name": "Customer",
+      "gender": "M",
+      "email": "customer@mail.com",
+      "password": "$2b$10$qKC9yIsTOldYxXq5ydxbBuH./rv8gQ8fE5sjZGUeSPzZK5G9nqEkG",
+      "role": "CUSTOMER",
+      "createdAt": 1688327887002,
+      "updatedAt": 1688327887002
+    },
+    {
+      "id": "505533f0-f399-4989-ba4e-dba3c5dd9789",
+      "first_name": "Usuario",
+      "last_name": "Admin",
+      "gender": "M",
+      "email": "admin@mail.com",
+      "password": "$2b$10$MhFACmmi/uBJtaTTecLs7OW8Pw5kwTzUSRQeQvkltXzEhdZWvhIrq",
       "role": "ADMIN",
-      "createdAt": 1688325419783,
-      "updatedAt": 1688325419783
+      "createdAt": 1688328006178,
+      "updatedAt": 1688328006178
     }
   ],
   "items": [
